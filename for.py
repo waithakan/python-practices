@@ -8,6 +8,8 @@ for index in range(1,6):
 for index in range(0, 11, 2):
     print(index)#print numbers from 0 to 4
 '''
-n = 100
-sum = n * (n+1)//2
-print(sum)
+import time
+for i in range (1, 6):#range from 1 to 6
+    print(i, "MIssissipi")
+    time.sleep(2)#timer after every 2 second an execution occur
+print("Ready or not here i come")#output after the 5 execution are met
