@@ -1,0 +1,25 @@
+- syntax error => caused by missing values
+- exception error => can run but has errors still...errors detected during execution are called exception errors
+	- zerodivision error => raised when second argument in a module is 0
+		>>> 10 * (1/0)
+		Traceback (most recent call last):
+  		File "<stdin>", line 1, in <module>
+  		>>> 10 * (1/0)
+  		ZeroDivisionError: division by zero
+	- Name error => raised when local or global name is not found
+		4 + spam*3
+		Traceback (most recent call last):
+  		File "<stdin>", line 1, in <module>
+		NameError: name 'spam' is not defined
+	= type error => Raised when an operation or function is applied to an object of inappropriate type
+		'2' + 2
+		Traceback (most recent call last):
+  		File "<stdin>", line 1, in <module>
+		TypeError: can only concatenate str (not "int") to str
+	- keyboardinterupt error => When user interupt code during execution. 
+	
+	* To raise an error - The raise statement allows the programmer to force a specified exception to occur.
+- e.g raise NameError('HiThere')
+	output: NameError: HiThere
+
+	

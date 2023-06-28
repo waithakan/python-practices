@@ -1,0 +1,14 @@
+- madoule is a file containing python statements and definantions
+- file name is the name of the module witj suffix.py
+- each module has its own private namespace 
+- modules can import other modules
+	e.g -from math import pi
+- if module is followed by as then we have renamd the module
+	e.g from math import pi as pie
+	- then we would use pie instea of pi
+
+=> sys.argv
+	- list of commandline arguments passed in a python script
+	- argv[0] is the script name
+
+
